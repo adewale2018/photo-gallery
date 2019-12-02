@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-
-
+import React from "react";
+import NavigationBar from "./navigationbar/NavigationBar";
+import { Container } from "semantic-ui-react";
 
 function App() {
   return (
-    <div className="App">
-      <h2>PHOTO GALLERY...</h2>
+    <div className='App'>
+      <NavigationBar />
+      <Container>Something will be here later...</Container>
     </div>
   );
 }
